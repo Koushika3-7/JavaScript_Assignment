@@ -1,0 +1,38 @@
+1. What is the value of clothes[0] and why?
+   const clothes = ['jacket', 't-shirt'];
+   clothes.length = 0;
+   console.log(clothes[0]);
+
+Ans: The value of clothes[0] is undefined.
+===				=========
+Reason: As the length of the array clothes is set to zero, the array becomes empty. Thus there does not exist an element in the index 0 of the array clothes and so the value of  clothes[0] is undefined.
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+2. Write a Javascript program to find the sum of all elements of a given array?
+
+Ans:
+===
+//File name: Assignment_2(que_2).html
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+</head>
+<body>
+    <script src="Assignment_2(que_2).js"></script>        
+</body>
+</html>
+-----------------------------------------------------------
+//File name: Assignment_2(que_2).js
+
+var arr=[12,15,17,19,20,5];
+var sum=0;
+for(var i=0;i<6;i++){
+    sum+=arr[i];
+}
+console.log(sum);
+
+
+Output: 88
+======
